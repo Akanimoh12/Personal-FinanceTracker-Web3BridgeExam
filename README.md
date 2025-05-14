@@ -1,12 +1,34 @@
-# React + Vite
+# 💰 Personal Finance Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A lightweight, responsive React application to help users monitor their income and expenses. Track financial activity with custom categories, detailed filters, charts, and CSV export. Built with performance and usability in mind.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Features
 
-## Expanding the ESLint configuration
+- Add and manage income or expense transactions
+- Custom category creation for detailed tracking
+- Filter and sort transactions by date, amount, or category
+- Responsive chart visualization (income vs. expense)
+- Export all records as CSV
+- Persistent data using browser localStorage
+- Responsive UI for mobile, tablet, and desktop
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ⚙️ Tech Stack
+
+- **React** (with Vite)
+- **Tailwind CSS** for styling
+- **LocalStorage API** for persistence
+- **Recharts** for data visualization (optional)
+- **FileSaver.js / json2csv** (optional CSV export)
+
+---
+
+## 🚀 Getting Started (Local Setup)
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Akanimoh12/Personal-FinanceTracker-Web3BridgeExam.git
+   cd Personal-FinanceTracker-Exam-Web3Bridge
