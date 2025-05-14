@@ -44,7 +44,7 @@ function App() {
     });
 
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="min-h-screen bg-blue-300">
       <Header />
       <main className="max-w-7xl mx-auto p-6 space-y-6">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
