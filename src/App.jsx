@@ -3,7 +3,7 @@ import { FaBeer } from 'react-icons/fa'
 
 function App() {
   return (
-    <div className=''>App</div>
+    <div>App</div>
   )
 }
 
